@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/yourname_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_8dp"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/your_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_8dp"
+            android:text="@string/your_score"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/your_number_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_20sp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_16dp"
+            android:text="@string/_3_5_no_burnout_not_enough_symptoms"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_16dp"
+            android:text="@string/_5_9_you_might_be_getting_closer_to_burnout"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_16dp"
+            android:text="@string/_9_13_you_might_be_getting_closer_to_burnout"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_20dp"
+            android:text="@string/find_the_motivation_in_why_you_became_a_teacher"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/your_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_16dp"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_16dp"
+            android:text="@string/read_more_about_teacher_burnout"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:autoLink="web"
+            android:text="@string/http_neatoday_org_2018_01_18_teacher_burnout_disillusionment"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:autoLink="web"
+            android:text="@string/https_www_psychologytoday_com_us_blog_much_more_common_core_201611_the_teacher_burnout_epidemic_part_1_2"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:autoLink="web"
+            android:text="@string/https_www_teachthought_com_critical_thinking_the_warning_signs_of_teacher_burnout"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:autoLink="web"
+            android:text="@string/https_www_weareteachers_com_prevent_teacher_burnout"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

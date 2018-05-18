@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8dp"
+        android:layout_marginTop="@dimen/_16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/please_take_a_moment_to_reflect_on_why_you_became_a_teacher"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sp" />
+
+    <EditText
+        android:id="@id/purpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8dp"
+        android:layout_marginTop="@dimen/_8dp"
+        android:hint="@string/why_i_wanted_to_be_a_teacher"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/_24dp"
+            android:layout_marginLeft="@dimen/_24dp"
+            android:layout_marginTop="@dimen/_36dp"
+            android:background="@drawable/whytobeateacher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16dp"
+                android:text="@string/please_enter_your_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sp" />
+
+            <EditText
+                android:id="@+id/yourname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16dp"
+                android:hint="@string/name"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_24dp"
+                android:text="@string/next" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

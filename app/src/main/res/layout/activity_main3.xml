@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_color"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_24dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:text="@string/are_you_having_negative_thoughts_about_being_a_teacher"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_22sp" />
+
+        <EditText
+            android:id="@+id/thoughts_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:hint="@string/yes_no_maybe"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_24dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:text="@string/check_all_that_apply"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_22sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/insomnia_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:paddingLeft="@dimen/_16dp"
+            android:text="@string/you_experience_insominia_more_than_a_couple_nights_a_week"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/appetite_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:paddingLeft="@dimen/_16dp"
+            android:text="@string/you_experience_change_of_appetite"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/fatigue_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:paddingLeft="@dimen/_16dp"
+            android:text="@string/you_are_experiencing_chronic_fatigue_or_exhaustion"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_24dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:text="@string/answer_the_following_questions"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:text="@string/do_you_feel_irritable_or_quick_to_anger"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/anger_yes_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/yes"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/anger_no_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/no"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/anger_sometimes_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/sometimes"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:text="@string/are_you_avoiding_social_gathering"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/social_yes_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/yes"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/social_no_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/no"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/social_sometimes_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/sometimes"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:text="@string/do_you_find_yourself_complaining"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/complaining_yes_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/yes"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/complaining_no_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/no"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/complaining_sometimes_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/sometimes"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:text="@string/are_you_having_difficuty_focusing"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/focusing_yes_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/yes"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/focusing_no_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/no"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/focusing_sometime_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24dp"
+                android:text="@string/sometimes"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/_8dp"
+            android:text="@string/see_your_results"
+            android:textAllCaps="true" />
+
+
+        <Button
+            android:id="@+id/explanation_grading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/_8dp"
+            android:text="@string/read_more_about_your_results"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+</ScrollView>
